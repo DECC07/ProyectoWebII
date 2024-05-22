@@ -146,6 +146,16 @@ button,
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+article{
+    background-color: #ffffff; 
+}
+
+body{
+       background-color: #109c5c; 
+  }
+p{
+    color: #93da0f; 
+}  
 
 
 .contact_form {
@@ -228,7 +238,14 @@ h3 {
 
 p {
     font-size: 14px;
-    color: #0e0e0e;
+    color: #807777;
+    text-align: justify;
+}
+
+p1 {
+    font-size: 14px;
+    color: #807777;
+    text-align: center;
 }
 
 
@@ -251,4 +268,22 @@ p {
 .formulario textarea:focus {
     outline: 0;
     border: 1px solid #97d848;
+}
+
+.container-facebook svg{
+    width: 30px;
+    height: 30px;
+    color: #1f4dcc;
+}
+
+.container-whatsapp svg{
+    width: 30px;
+    height: 30px;
+    color: #30a30d;
+}
+
+.container-email svg{
+    width: 30px;
+    height: 30px;
+    color: #a30d0d;
 }
