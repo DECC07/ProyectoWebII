@@ -7,23 +7,36 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
-<h1>ConoceBO</h1>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <br>
 </head>
 <body>
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">MENU</a>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/icono.png" width="50" height="50">
+        <img src="img/logo5.png" width="120" height="50">
+      </a>
+      <div class="navbar-nav ms-auto">
+         <a class="nav-link" href="#">
+            <i class="bi bi-cart4"></i>
+            <span class="cart-count">0</span>
+         </a>
+         <a class="nav-link" href="resgistro.html">
+            <i class="bi bi-person-circle"> Iniciar sesión</i>
+         </a>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            <a class="nav-link" href="hospedaje.html">Hospedaje</a>
-            <a class="nav-link" href="vuelo.html">Vuelos</a>
-            <a class="nav-link" href="lugares.html">Lugares</a>
-            <a class="nav-link" href="resgistro.html">Registro</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link" href="hospedaje.html">Hospedaje</a>
+          <a class="nav-link" href="vuelo.html">Vuelos</a>
+          <a class="nav-link" href="lugares.html">Lugares</a>
+          <a class="nav-link" href="resgistro.html">Registro</a>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Ofertas</a>
             <ul class="dropdown-menu">
@@ -49,9 +62,7 @@
         </div>
       </div>
     </div>
-  </nav>
-
-  <h2> FORMULARIO DE REGISTRO</h2>
+  </nav>  <h2> FORMULARIO DE REGISTRO</h2>
   <form class="row g-3">
         <div class="col-md-4">
           <label for="validationServer01" class="form-label">Nombre</label>
